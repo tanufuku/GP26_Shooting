@@ -1,0 +1,56 @@
+# ===== Unity が自動生成するもの（GitHub に上げない）=====
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# ===== IDE・エディタが作るファイル =====
+/.vs/
+/.vscode/
+/.idea/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ===== OS が作るファイル =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== ビルド成果物 =====
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+crashlytics-build.properties
+
+# ===== 配布しない素材 =====
+# 日本語のTMPフォントは1ファイル約40MBあるため除外している。
+# （UIは英数字だけで作ってあるので、無くても正常に動く）
+# もし自分で日本語フォントを入れて GitHub にも上げたい場合は、下の2行を消すこと。
+/Assets/Font/
+/Assets/Font.meta
+
+# 音源（Assets/Sounds/）は除外していない。自分で入れた音はそのまま提出できる。
+
+# ===== 講師用ツール（絶対に配布しない）=====
+# GP26 メニューのビルダーには完成版の値がすべて書かれている＝答えそのもの
+/Assets/Editor/
+/Assets/Editor.meta
